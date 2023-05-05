@@ -1,0 +1,101 @@
+<view class="main">
+    <view class="top">
+        <view class="iconfont icon-yonghu"></view>
+        <view>
+            护理人员注册
+        </view>
+    </view>
+    <view class="wechat">
+        <view class="iconfont icon-weixin">
+            
+        </view>
+        <view>
+            微信一键注册 
+        </view>
+    </view>
+    <view class="step">
+        <stepBar index="{{index}}" stepDescription="{{stepDescription}}"></stepBar>
+    </view>
+
+    <view class="form" wx:if="{{index==0}}">
+    <view class="form_content">
+        <view class="form_item">
+            <input type="text" placeholder="姓名"/>
+        </view>
+        <view class="form_item">
+            <input type="text" placeholder="地址"/>
+            <view class="iconfont icon-31dingwei">
+                
+            </view>
+        </view>
+        <view class="form_item">
+            <input type="text" placeholder="密码"/>
+            <view class="iconfont icon-jiesuo">
+                
+            </view>
+        </view>
+        <view class="form_item">
+            <input type="text" placeholder="身份证号"/>
+        </view>
+        <view class="form_info">
+            *注册代表您同意<text>《智慧养老平台保密协议》</text>
+        </view>
+    </view>
+    
+    </view>
+    <view class="form" wx:if="{{index==1}}">
+        <view class="form_content">
+            <view class="form_item">
+            <input type="text" placeholder="手机绑定"/>
+            <view class="getPhoneCode">
+                获取短信验证码
+            </view>
+            <!-- <view class="getPhoneCode">
+                1 s
+            </view> -->
+        </view>
+        <view class="form_item">
+            <input type="text" placeholder="短信验证码"/>
+        </view>
+        </view> 
+        
+    </view>
+
+    <view class="form" wx:if="{{index==2}}">
+        <view class="form_content_done">
+        <view class="form_content_done_d1">
+            <view class="iconfont icon-duigou">
+               
+            </view>
+            <view>
+                您已成功注册
+            </view>
+            <view class="form_content_done_d1_grade">
+                基础护理人员
+            </view>
+        </view>
+        
+           <view class="form_content_done_d2">
+            去认证，升级高级护理人员 >
+           </view>
+        </view> 
+        
+    </view>
+
+
+
+    <view class="bottom {{index==1 ?'ontFirst':''}}" >
+        <view class="nextButton {{index!=0?'notFirstPage':''}}" bindtap="preButton" wx:if="{{index!=0 && index!=2}}">
+            上一步
+        </view>
+        <view class="nextButton  {{index!=0?'notFirstPage':''}}" bindtap="nextButton" wx:if="{{index==0}}">
+            下一步
+        </view>
+        <view class="nextButton  {{index!=0?'notFirstPage':''}}" bindtap="nextButton"  wx:if="{{index==1}}">
+            完成
+        </view>
+        <view class="nextButton" bindtap="toLogin"  wx:if="{{index==2}}">
+            去登陆
+        </view>
+    </view>
+</view>

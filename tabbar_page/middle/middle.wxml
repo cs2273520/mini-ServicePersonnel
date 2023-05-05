@@ -1,0 +1,139 @@
+<view class="main">
+    <view class="top ">
+        <view class="top_title">
+            订单号:000000000
+        </view>
+        <view class="top_content">
+            <view class="top_content_left">
+                <view class="iconfont icon-loading">
+
+                </view>
+            </view>
+            <view class="top_content_center">
+                <view class="top_content_center_t1">
+                    <view class="iconfont icon-weiju"> </view>
+                    <view>
+                        打扫清洁
+                    </view>
+                    <view class="username">
+                        用户1
+                    </view>
+                </view>
+                <view class="top_content_center_t1">
+                    <view class="iconfont icon-shizhong"> </view>
+                    <view>
+                        2022-05-23 13:27
+                    </view>
+                </view>
+                <view class="top_content_center_t1">
+                    <view class="iconfont icon-31dingwei"> </view>
+                    <view>
+                        广州市南沙区xxx
+                    </view>
+                </view>
+
+                <view class="top_content_center_t1">
+                    <view class="iconfont icon-shizhong"> </view>
+                    <view>
+                        工时:2:30小时
+                    </view>
+                </view>
+
+            </view>
+            <view class="top_content_right">
+                <view class="iconfont icon-shandian">
+
+                </view>
+            </view>
+        </view>
+        <view class="top_price">
+            ￥100.00
+        </view>
+        <view class="customerService {{state=='4'?'customerService_4':''}} " wx:if="{{state!='' && state=='4'}}">
+            <view class="iconfont icon-kefu"></view>
+            <view>
+                在线客服
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_item">
+            <view class="content_item_title">
+                工作内容
+            </view>
+            <view class="lables">
+                <view class="lable_item">
+                    打扫清洁
+                </view>
+                <view class="lable_item">
+                    做饭
+                </view>
+            </view>
+        </view>
+
+        <view class="content_item">
+            <view class="content_item_title content_item_title_evaluation">
+              <view>
+                用户评价
+              </view>  
+              <t-rate value="{{value}}" bind:change="onChange" />
+            </view>
+          <view class="content_item_evaluation">
+          <view class="content_item_evaluation_item">
+            <view>
+                工作效率
+              </view>  
+              <t-rate value="{{value}}" bind:change="onChange" size="{{20}}"/>
+          </view>
+          <view class="content_item_evaluation_item">
+            <view>
+                时间观念
+              </view>  
+              <t-rate value="{{value}}" bind:change="onChange" size="{{20}}"/>
+          </view>
+          <view class="content_item_evaluation_item">
+            <view>
+                服务态度
+              </view>  
+              <t-rate value="{{value}}" bind:change="onChange" size="{{20}}"/>
+          </view>
+            
+          </view>
+        </view>
+
+    </view>
+    <view class="bottom">
+    <view class="bottom_item" wx:if="{{true}}">
+        <view class="unsettled">
+            订单未结算
+        </view>
+        <view class="urge">
+            催一催
+        </view>
+    </view>
+
+    <view class="bottom_item" wx:if="{{false}}">
+        <view class="pay">
+            订单已完成结算
+        </view>
+    </view>
+
+
+       <view class="bottom_item">
+        <view class="question">
+            疑问?
+        </view>
+        <view class="customerService">
+        <view class="iconfont icon-kefu">
+            
+        </view>
+        <view> 在线客服</view> 
+   
+        </view>
+        <view class="appeal" wx:if="{{false}}">
+            申诉
+        </view>
+       </view>
+    </view>
+ 
+</view>

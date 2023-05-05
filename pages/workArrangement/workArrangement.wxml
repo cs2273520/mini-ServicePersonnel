@@ -1,0 +1,116 @@
+<view class="main">
+    <top></top>
+    <view class="content">
+        <view class="content_title">
+            2021年8月5日
+        </view>
+        <view class="content_center">
+  
+            <view class="content_center_item">
+                <view class="content_center_item_left">
+                    8：00-9：00
+                </view>
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        广州市南沙区xxx镇
+                    </view>
+                </view>
+            </view>
+            <view class="content_center_item">
+                <view class="content_center_item_left">
+                    8：00-9：00
+                </view>
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        广州市南沙区xxx镇
+                    </view>
+                </view>
+            </view>
+            <view class="content_center_item">
+                <view class="content_center_item_left">
+                    8：00-9：00
+                </view>
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        广州市南沙区xxx镇
+                    </view>
+                </view>
+            </view>
+            <view class="content_center_item">
+                <view class="content_center_item_left">
+                    8：00-9：00
+                </view>
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        广州市南沙区xxx镇
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="content_center_line">
+            
+        </view>
+        <view class="content_bottom">
+            <view class="content_bottom_item quick">
+                <view>
+                    
+                </view>
+                <view>
+                    极速模式
+                </view>
+            </view>
+            <view class="content_bottom_item month">
+                <view>
+                    
+                </view>
+                <view>
+                    包月模式
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

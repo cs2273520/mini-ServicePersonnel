@@ -1,0 +1,36 @@
+<view class="main">
+    <view class="content">
+        <view class="content_form UnderReview" >
+            <view class="underReview">
+                <view class="iconfont icon-duigou">
+
+                </view>
+                <view class="successUpgrade" wx:if="{{state==1}}">
+                    接单成功
+                </view>
+                <view class="successUpgrade" wx:if="{{state==2}}">
+                    拒单成功
+                </view>
+                <view class="Congratulations">
+                   订单号：00000000
+                </view>
+                <view>
+                    2022年05月23日10:12
+                </view>
+                <view class="customerService">
+                    <view class="iconfont icon-kefu"></view>
+                    <view>
+                        在线客服
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="gotoReceive">
+            <view class="gotoReceive_button" bindtap="toOrderDetail">
+                查看订单详情
+            </view>
+        </view> 
+
+    </view>
+
+</view>

@@ -1,0 +1,177 @@
+<view class="main">
+    <view class="top">
+        <view class="top_item">
+            <view>
+                极速模式
+            </view>
+            <view class="iconfont icon-xiangyou1">
+                
+            </view>
+        </view>
+        <view class="top_item">
+            <view>
+                极速模式
+            </view>
+            <view class="iconfont icon-xiangyou1">
+                
+            </view>
+        </view>
+        <view class="top_item">
+            <view>
+                极速模式
+            </view>
+            <view class="iconfont icon-xiangyou1">
+                
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_title">
+        <view class="content_title_center">
+            <view class="content_title_center_c1">
+                总订单 <view class="content_title_center_c1_all">
+                3
+            </view> 份
+            </view>
+            <view class="content_title_center_c2">
+                下划刷新界面……
+            </view>
+        </view>
+         
+        </view>
+        <view class="content_item" bindtap="toDetail">
+            <view class="content_item_left">
+                <view class="iconfont icon-loading">
+                
+            </view>
+            <view class="content_item_left_time">
+                29:50
+            </view>
+            </view>
+            <view class="content_item_center">
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-weiju"></view>
+                    <view>
+                        打扫清洁
+                    </view>
+                    <view class="username">
+                        用户1
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-shizhong"></view>
+                    <view>
+                        2022-05-23 13:27
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-31dingwei"></view>
+                    <view>
+                        广州市南沙区xxx
+                    </view>
+                </view>
+            </view>
+            <view class="content_item_right">
+                <view class="iconfont icon-xiangyou1">
+                
+            </view>
+            <view class="iconfont icon-shandian shandian" >
+                
+            </view>
+            </view>
+        </view>
+        <view class="content_item" bindtap="toDetail" data-state="4">
+            <view class="content_item_left">
+                <view class="iconfont icon-loading">
+                
+            </view>
+            <view class="content_item_left_time">
+                29:50
+            </view>
+            </view>
+            <view class="content_item_center">
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-weiju"></view>
+                    <view>
+                        打扫清洁
+                    </view>
+                    <view class="username">
+                        用户1
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-shizhong"></view>
+                    <view>
+                        2022-05-23 13:27
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-31dingwei"></view>
+                    <view>
+                        广州市南沙区xxx
+                    </view>
+                </view>
+            </view>
+            <view class="content_item_right">
+                <view class="iconfont icon-xiangyou1">
+                
+            </view>
+            <view class="iconfont icon-shandian shandian" >
+                
+            </view>
+            </view>
+        </view>
+        <view class="content_item" bindtap="toDetail">
+            <view class="content_item_left">
+                <view class="iconfont icon-loading">
+                
+            </view>
+            <view class="content_item_left_time">
+                29:50
+            </view>
+            </view>
+            <view class="content_item_center">
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-weiju"></view>
+                    <view>
+                        打扫清洁
+                    </view>
+                    <view class="username">
+                        用户1
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-shizhong"></view>
+                    <view>
+                        2022-05-23 13:27
+                    </view>
+                </view>
+                <view class="content_item_center_item">
+                    <view class="iconfont icon-31dingwei"></view>
+                    <view>
+                        广州市南沙区xxx
+                    </view>
+                </view>
+            </view>
+            <view class="content_item_right">
+                <view class="iconfont icon-xiangyou1">
+                
+            </view>
+            <view class="iconfont icon-shandian shandian" >
+                
+            </view>
+            </view>
+        </view>
+        <view class="content_bottom">
+            没有更多了~
+        </view>
+    </view>
+    <view class="funButton">
+        <view>
+            一键拒单
+        </view>
+        <view>
+            一键接单
+        </view>
+    </view>
+</view>

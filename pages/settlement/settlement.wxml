@@ -1,0 +1,117 @@
+<view class="main">
+    <top page="settlement"></top>
+    <view class="main_title">
+            2021年8月5日
+        </view>
+    <view class="content">
+        <view class="content_title">
+        <block wx:for="{{mode}}" wx:key="*this">
+            <view class="content_title_item {{index==chooseMode?'content_title_item_active':''}}" bindtap="chooseMode" data-mode="{{index}}">
+                {{item}}
+            </view>
+        </block>
+      
+         
+        </view>
+        <view class="content_center">
+  
+            <view class="content_center_item">
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        评价: <t-rate value="{{value}}" bind:change="onChange" size="{{12}}"/>
+                    </view>
+                </view>
+                <view class="content_center_item_left">
+                   <view>￥50</view> 
+                </view>
+               
+               
+            </view>
+            <view class="content_center_item">
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        评价: <t-rate value="{{value}}" bind:change="onChange" size="{{12}}"/>
+                    </view>
+                </view>
+                <view class="content_center_item_left">
+                   <view>￥50</view> 
+                </view>
+               
+               
+            </view>
+            <view class="content_center_item">
+                <view class="content_center_item_center">
+                    <view class="point">
+                        
+                    </view>
+                </view>
+                <view class="content_center_item_right">
+                    <view class="content_center_item_right_item">
+                        订单编号：000000
+                    </view>
+                    <view class="content_center_item_right_item">
+                        服务时间：8：30
+                    </view>
+                    <view class="content_center_item_right_item">
+                        评价: <t-rate value="{{value}}" bind:change="onChange" size="{{12}}"/>
+                    </view>
+                </view>
+                <view class="content_center_item_left">
+                   <view>￥50</view> 
+                </view>
+               
+               
+            </view>
+            
+        </view>
+        <view class="content_bottom">
+           <view class="content_bottom_content">
+               <view class="preButton button">
+                   上一页
+               </view>
+               <view class="pageNum">
+                 <text>2</text> /5
+               </view>
+               <view class="nextButton button">
+                   下一页
+               </view>
+           </view>
+        </view>
+    </view>
+    <view class="bottom">
+        <view class="bottom_contnt">
+            联系机构
+        </view>
+   
+    </view>
+    <view class="customService">
+            <view class="iconfont icon-kefu">
+                
+            </view>
+            <view>
+                在线客服
+            </view>
+        </view>
+</view>

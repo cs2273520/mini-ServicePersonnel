@@ -1,0 +1,81 @@
+{
+    "pages": [
+        "tabbar_page/index/index",
+        "pages/settlement/settlement",
+       
+        "pages/workArrangement/workArrangement",
+        "tabbar_page/allservice/allservice",
+        "tabbar_page/middle/middle",
+        "tabbar_page/center/center",
+        "pages/myCourse/myCourse",
+        "pages/fillTheReason/fillTheReason",
+        "pages/upgrade/upgrade",
+        "tabbar_page/order/order",
+        "pages/orderDetail/orderDetail",
+        "pages/orderReceiveState/orderReceiveState",
+        "pages/login/login",
+        "pages/register/register"
+       
+       
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#005826",
+        "navigationBarTitleText": "智慧养老小程序",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "tabbar_page/index/index",
+                "iconPath": "/image/tabbar/index.png",
+                "selectedIconPath": "/image/tabbar/index_s.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "tabbar_page/order/order",
+                "iconPath": "/image/tabbar/order.png",
+                "selectedIconPath": "/image/tabbar/order_s.png",
+                "text": "订单"
+            },
+            {
+                "pagePath": "tabbar_page/middle/middle",
+                "iconPath": "/image/tabbar/middle.png",
+                "selectedIconPath": "/image/tabbar/middle_s.png",
+                "text": ""
+            },
+            {
+                "pagePath": "tabbar_page/allservice/allservice",
+                "iconPath": "/image/tabbar/server.png",
+                "selectedIconPath": "/image/tabbar/server_s.png",
+                "text": "全部服务"
+            },
+            {
+                "pagePath": "tabbar_page/center/center",
+                "iconPath": "/image/tabbar/center.png",
+                "selectedIconPath": "/image/tabbar/center_s.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "requiredPrivateInfos": [
+        "getLocation",
+        "startLocationUpdate",
+        "onLocationChange",
+        "startLocationUpdateBackground"
+    ],
+    "requiredBackgroundModes": [
+        "location",
+        "startLocationUpdate",
+        "onLocationChange",
+        "startLocationUpdateBackground"
+    ],
+    "lazyCodeLoading": "requiredComponents",
+    "sitemapLocation": "sitemap.json"
+}

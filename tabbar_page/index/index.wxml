@@ -1,0 +1,175 @@
+<view class="main">
+    <view class="top">
+        <image src="/image/tabbar/head.svg" mode="" class="head"/>
+        <view class="name">
+            xxx
+        </view>
+        <image src="/image/tabbar/intro.svg" mode="" class="intro"/>
+        <view class="step">
+            高级护理人员
+        </view>
+    </view>
+    <view class="chooseFun">
+        <view class="chooseFun_c1">
+                <view class="chooseFun_c1_1">
+                    <view class="ordering">
+                        接单中
+                    </view>
+                    <view class="chooseFun_c1_1_time">
+                      <image src="/image/Allpage/index/time.svg" mode=""/>  接单时长
+                    </view>
+                    <view class="CurrentTime">
+                        02:13:25
+                    </view>
+                </view>
+        </view>
+        <view class="chooseFun_c2">
+            <view class="chooseFun_c2_1">
+                <view>
+                    开始接单
+                </view>
+                <view class="chooseFun_c2_1_startorder jiedan">
+                    <view class="iconfont icon-jiedan">
+                    </view>
+                </view>
+                
+            </view>
+            <view class="chooseFun_c2_1 stoporder">
+                <view>
+                    暂停接单
+                </view>
+                <view class="chooseFun_c2_1_startorder stop">
+                    <view class="iconfont icon-quxiaodingdan">
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="notice">
+            <view class="notice_content">
+                <view class="notice_content_item">
+                    ·系统维护通知：1月14日00:00-01:00系统维护
+                </view>
+                <view class="notice_content_item">
+                    ·系统维护通知：1月14日00:00-01:00系统维护系统维护通知：1月14日00:00-01:00系统维护
+                </view>
+                
+            </view>
+            <view class="notice_detail">
+                <view class="iconfont icon-xiangyou1">
+                    
+                </view>
+            </view>
+         
+    </view>
+    <view class="record">
+        <view class="record_content">
+            <view class="record_content_title">
+                <view class="iconfont icon-dingdan">
+                </view>
+                <view class="record_content_data">
+                    <view class="record_content_data_left">
+                      <view class="record_content_data_left_1">
+                          <view class="record_content_data_left_1_num quick">
+                              15
+                          </view>
+                          单
+                      </view>
+                      <view class="record_content_data_left_2">
+                          极速模式
+                        </view>
+                    </view>
+                    <view class="record_content_data_left">
+                      <view class="record_content_data_left_1">
+                          <view class="record_content_data_left_1_num month">
+                              03
+                          </view>
+                          单
+                      </view>
+                      <view class="record_content_data_left_2 ">
+                          包月模式
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="record_content_recently">
+                <view class="record_content_recently_title">
+                    <view >
+                        最近订单
+                    </view>
+                </view>
+                <view class="record_content_recently_content">
+                    <view class="record_content_recently_all">
+                        <view class="record_content_recently_item">
+                    <view class="point">
+                        
+                    </view>
+                    <view >
+                        极速模式
+                    </view>
+                    <view>
+                        广州市南沙区xxxx
+                    </view>
+                    <view>
+                        打扫卫生
+                    </view>
+                </view>
+                <view class="record_content_recently_item">
+                    <view class="point">
+                        
+                    </view>
+                    <view >
+                        极速模式
+                    </view>
+                    <view>
+                        广州市南沙区xxxx
+                    </view>
+                    <view>
+                        打扫卫生
+                    </view>
+                </view>
+                <view class="record_content_recently_item">
+                    <view class="point">
+                        
+                    </view>
+                    <view >
+                        极速模式
+                    </view>
+                    <view>
+                        广州市南沙区xxxx
+                    </view>
+                    <view>
+                        打扫卫生
+                    </view>
+                </view>  
+                    </view>
+                    <view class="record_content_recently_right">
+                        <view class="iconfont icon-xiangyou1">
+                            
+                        </view>
+                </view>
+                </view>
+           
+            </view>
+        </view>
+    </view>
+    <view class="functionButton">
+        <view class="functionButton_item ">
+            <view class="iconfont icon-jinqian">
+                
+            </view>
+            <view>
+                订单结算
+            </view>
+        </view>
+        <view class="functionButton_item urgent">
+            <view class="iconfont icon-cross">
+                
+            </view>
+            <view>
+                紧急呼救
+            </view>
+        </view>
+    </view>
+</view>

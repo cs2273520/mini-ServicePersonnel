@@ -1,0 +1,199 @@
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  padding-bottom: 86.957rpx;
+  .top{
+    width: 100%;
+    display: flex;
+    max-height: 181.159rpx;
+    align-items: center;
+    justify-content: space-between;
+    height: 181.159rpx;
+    padding: 0 18.12rpx;
+    box-sizing: border-box;
+    .headPicture{
+        image{
+            width: 144.928rpx;
+            height: 144.928rpx;
+        }
+    }
+    .userInfo{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 289.855rpx;
+        margin-left: -90.58rpx;
+        height: 100%;
+        .name{
+            margin-top: 18.116rpx;
+            font-size: 39.855rpx;
+            margin-bottom: 18.116rpx;
+        }
+        .intro{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            font-size: 25.362rpx;
+            .intro1{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                .toUp{
+                    color: #005826;
+                    text-decoration: underline;
+                }
+            }
+            image{
+                width: 36.232rpx;
+                height: 36.232rpx;
+                margin-right: 9.058rpx;
+            }
+            
+        }
+    }
+    .settlement{
+        display: flex;
+        height: 100%;
+        align-items: flex-start;
+        width: 90.58rpx;
+        justify-content: flex-end;
+        padding-top: 18.12rpx;
+        .icon-erweima{
+          font-size: 43.48rpx;
+        }
+    }
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .content_item{
+    min-width: 677.54rpx;
+    min-height: 313.41rpx;
+    background-color: white;
+    margin-bottom: 18.12rpx;
+    padding: 27.17rpx;
+      box-sizing: border-box;
+      border-radius: 5px;
+    .content_item_title{
+      font-size: 30.769rpx;
+    }
+    .content_item_content{
+      margin-top: 18.12rpx;
+      width: 100%;
+      min-height: 271.74rpx;
+      border: 1.81rpx solid #ccc;
+    }
+    .content_item_content_unbind{
+        min-height: 100px;
+        border: none;
+        display: flex;
+        padding-left: 30px;
+        box-sizing: border-box;
+        .weui-cell{
+            display: flex;
+            align-items: center;
+            checkbox .wx-checkbox-input {
+                width: 13px;
+                height: 13px;
+                line-height: 15px;
+                border: 1px solid #BBBBBB;
+                text-align: center;
+                padding: 2px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+            }
+            checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+                color: #fff;
+                background-color: #005826;
+            }
+           
+        }
+        textarea{
+            width: 182px;
+            height: 34px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .icon-a-iconyanglaoyuan{
+            font-size: 70px;
+            color: #005826;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .mechanism{
+                font-size: 14px;
+            }
+        }
+        .content_item_content_unbind_right{
+            margin-left: 30px;
+          
+            font-size: 14px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .content_item_content_unbind_right_item{
+                display: flex;
+                width: 100%;
+                margin-bottom: 10px;
+                align-items: center;
+               
+                .iconfont{
+                    margin-right: 5px;
+                    color: #005826;
+                }
+            }
+        }
+    }
+    .reason{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grade{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        height: 30px;
+        .demo-rate__title{
+            margin-right: 10px;
+        }
+    }
+  }
+  .grade{
+      min-height:50px;
+      box-sizing: border-box;
+  }
+  
+}
+.button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36.23rpx;
+  .button_center{
+    width: 436.59rpx;
+    height: 86.96rpx;
+    background-color: #005826;
+    color: white;
+    border-radius: 68.84rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+}

@@ -1,0 +1,149 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.main .t-calendar__month {
+  padding-top: 20px;
+}
+
+.main .t-calendar__title {
+  max-height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.main .t-calendar__days {
+  border-bottom: 1px solid #ccc;
+}
+
+.main .t-calendar__dates-item {
+  max-height: 35px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.main .t-calendar__dates-item-prefix {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid #BD3124;
+  color: transparent;
+}
+
+.main .t-calendar__dates-item-suffix {
+  height: 5px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  color: white;
+  border-bottom: 2px solid #005826;
+  color: transparent;
+}
+
+.main .top {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 28.846rpx;
+}
+
+.main .top .top_left {
+  width: 153.846rpx;
+}
+
+.main .top .top_left image {
+  width: 144.231rpx;
+  height: 144.231rpx;
+}
+
+.main .top .top_center {
+  flex: 1;
+  padding-left: 19.231rpx;
+  font-size: 38.462rpx;
+}
+
+.main .top .top_center .intro {
+  margin-top: 19.231rpx;
+  display: flex;
+  display: flex;
+  align-items: center;
+  font-size: 26.923rpx;
+}
+
+.main .top .top_center .intro .icon-diamond {
+  margin-right: 9.615rpx;
+  color: #005826;
+}
+
+.main .top .top_right .icon-erweima {
+  font-size: 46.154rpx;
+}
+
+.main .content {
+  width: 100%;
+  border-radius: 19.231rpx;
+  height: 865.385rpx;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main .content .content_calendar {
+  width: 615.385rpx;
+  height: 723.077rpx;
+  box-shadow: 3.846rpx 3.846rpx 9.615rpx #ccc;
+  overflow: hidden;
+  margin-top: -57.692rpx;
+}
+
+.main .content .content_calendar .t-calendar__title {
+  visibility: hidden;
+}
+
+.main .content .content_bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 28.846rpx;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  bottom: 19.231rpx;
+}
+
+.main .content .content_bottom .content_bottom_content {
+  width: 192.308rpx;
+}
+
+.main .content .content_bottom .content_bottom_content .content_bottom_content_item {
+  display: flex;
+  align-items: center;
+  font-size: 26.923rpx;
+  color: #BD3124;
+}
+
+.main .content .content_bottom .content_bottom_content .content_bottom_content_item .line {
+  width: 63.462rpx;
+  height: 5.769rpx;
+  background-color: white;
+  margin-right: 19.231rpx;
+}
+
+.main .content .content_bottom .content_bottom_content .content_bottom_content_item .line_red {
+  background-color: #BD3124;
+}
+
+.main .content .content_bottom .content_bottom_content .content_bottom_content_item .line_green {
+  background-color: #005826;
+}
+
+.main .content .content_bottom .content_bottom_content .content_bottom_content_item_month {
+  color: #005826;
+}

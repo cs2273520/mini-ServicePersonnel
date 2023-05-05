@@ -1,0 +1,155 @@
+.main{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    .top{
+        display: flex;
+        font-size: 53.846rpx;
+        width: 100%;
+        justify-content: center;
+        margin-top: 57.692rpx;
+        .icon-yonghu{
+            font-size: 63.462rpx;
+            border: 1.923rpx solid #005826;
+            color: #005826;
+            border-radius: 50%;
+            margin-right: 28.846rpx;
+        }
+    }   
+    .wechat{
+        display: flex;
+        justify-content: center;
+        margin-top: 38.462rpx;
+        flex-direction: column;
+        align-items: center;
+        font-size: 26.923rpx;
+        .icon-weixin{
+            border-radius: 50%;
+            border: 1.923rpx solid #005826;
+            color: #005826;
+            font-size: 86.538rpx;
+            padding: 3.846rpx;
+            box-sizing: border-box;
+        }
+    } 
+    .step{
+        padding: 38.462rpx 96.154rpx;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    .form_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 617.308rpx;
+        height: 751.923rpx;
+        background-color: white;
+        border-radius: 19.231rpx;
+        margin-top: -38.462rpx;
+
+        .form_item{
+            display: flex;
+            position: relative;
+            height: 105.769rpx;
+            margin-bottom: 38.462rpx;
+            position: relative;
+            .getPhoneCode{
+                text-decoration: underline;
+                font-size: 26.923rpx;
+                color: #005826;
+                position: absolute;
+                right: 0;
+                top: 30.769rpx;
+            }
+            input{
+                width: 463.462rpx;
+                border-bottom: 3.846rpx solid #005826;
+                font-size: 34.615rpx;
+                height: 96.154rpx;
+            }
+            .iconfont{
+                font-size: 46.154rpx;
+                position: absolute;
+                right: 0;
+                top: 23.077rpx;
+            }
+        }
+        .form_info{
+            font-size: 23.077rpx;
+            text{
+                color: #005826;
+            }
+        }
+    }
+    .form_content_done{
+        width: 321px;
+        height: 377px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 0;
+        box-sizing: border-box;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        .form_content_done_d1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 70%;
+            font-size: 18px;
+            align-items: center;
+            .icon-duigou{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 80px;
+                color: #BD3124;
+                margin-top: 30px;
+            }
+            .form_content_done_d1_grade{
+                font-size: 20px;
+                color: #005826;
+            }
+        }
+        .form_content_done_d2{
+            font-size: 14px;
+            text-decoration: underline;
+            color: #005826;
+        }
+     
+    }
+       
+    }
+    .bottom{
+        width: 100%;
+        margin: 38.462rpx 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nextButton{
+            width: 463.462rpx;
+            height: 76.923rpx;
+            font-size: 30.769rpx;
+            color: white;
+            background-color: #005826;
+            border-radius: 38.462rpx;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .notFirstPage{
+            width: 100px;
+            height: 48px;
+        }
+    }
+    .ontFirst{
+        justify-content: space-between;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,154 @@
+<view class="main">
+    <view class="top">
+
+        <view class="headPicture">
+            <image src="/image/tabbar/center_s.png" mode="" />
+        </view>
+        <view class="userInfo">
+            <view class="name">
+                xxx
+            </view>
+            <view class="intro">
+                <image src="/image/tabbar/intro.svg" mode="" />
+                <view class="intro1">
+                    <view>
+                        基础护理人员
+                    </view>
+                    <view class="toUp" bindtap="toUp">
+                        去升级
+                    </view>
+                </view>
+            </view>
+
+        </view>
+        <view class="settlement">
+            <image src="/image/tabbar/code.svg" mode="" />
+            <image src="/image/tabbar/moneny.svg" mode="" bindtap="toSettlement"/>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_item content_order">
+            <view class="order_item">
+                <view>
+                    0
+                </view>
+                <view>
+                    待处理
+                </view>
+            </view>
+            <view class="order_item">
+                <view>
+                    0
+                </view>
+                <view>
+                    待处理
+                </view>
+            </view>
+            <view class="order_item">
+                <view>
+                    0
+                </view>
+                <view>
+                    待处理
+                </view>
+            </view>
+        </view>
+        <view class=" content_item content_course">
+            <view class="content_course_title">
+                <view>
+                    我的课程
+                </view>
+                <view class="checkAll" bindtap="checkAll" data-bindtap="checkCourse">
+                    查看全部 >
+                </view>
+            </view>
+            <view class="content_course_content">
+                <view class="content_course_content_item">
+                <image src="/image/tabbar/video.svg" mode=""/>
+                    <view>
+                        学习中
+                    </view>
+                </view>
+                <view class="content_course_content_item">
+                <image src="/image/tabbar/video.svg" mode=""/>
+                    <view>
+                        学习中
+                    </view>
+                </view>
+                <view class="content_course_content_item">
+                <image src="/image/tabbar/video.svg" mode=""/>
+                    <view>
+                        学习中
+                    </view>
+                </view>
+                <view class="content_course_content_item">
+                <image src="/image/tabbar/video.svg" mode=""/>
+                    <view>
+                        学习中
+                    </view>
+                </view>
+            
+            </view>
+        </view>
+        <view class="content_item content_mechanism">
+            <view class="content_mechanism_title">
+                <view>
+                    绑定机构
+                </view>
+                <view  bindtap="checkAll" data-bindtap="unbind">
+                    去解绑 >
+                </view>
+            </view>
+            <view class="content_mechanism_centent">
+                    <image src="/image/tabbar/NursingHome.svg" mode=""/>
+                <view>
+                    xxx养老院
+                </view>
+            </view>
+        </view>
+        <view class="content_item OtherFunctions">
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+            <view class="OtherFunctions_item">
+                <image src="/image/tabbar/certificate.svg" mode=""/>
+                <view>
+                    资格证书
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

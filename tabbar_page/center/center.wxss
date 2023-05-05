@@ -1,0 +1,198 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  padding: 18.116rpx 18.116rpx;
+  padding-bottom: 86.957rpx;
+  overflow: scroll;
+}
+
+.main .top {
+  width: 100%;
+  display: flex;
+  max-height: 181.159rpx;
+  align-items: center;
+  justify-content: space-between;
+  height: 181.159rpx;
+  background-color: #f2f2f2;
+}
+
+.main .top .headPicture image {
+  width: 144.928rpx;
+  height: 144.928rpx;
+}
+
+.main .top .userInfo {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 289.855rpx;
+  margin-left: -90.58rpx;
+  height: 100%;
+}
+
+.main .top .userInfo .name {
+  margin-top: 18.116rpx;
+  font-size: 39.855rpx;
+  margin-bottom: 18.116rpx;
+}
+
+.main .top .userInfo .intro {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 25.362rpx;
+}
+
+.main .top .userInfo .intro .intro1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main .top .userInfo .intro .intro1 .toUp {
+  color: #005826;
+  text-decoration: underline;
+}
+
+.main .top .userInfo .intro image {
+  width: 36.232rpx;
+  height: 36.232rpx;
+  margin-right: 9.058rpx;
+}
+
+.main .top .settlement {
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  width: 90.58rpx;
+  justify-content: space-between;
+}
+
+.main .top .settlement image {
+  width: 36.232rpx;
+  height: 36.232rpx;
+}
+
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .content .content_item {
+  border-radius: 18.116rpx;
+  padding: 18.116rpx;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 10.87rpx 0;
+}
+
+.main .content .content_order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 181.159rpx;
+}
+
+.main .content .content_order .order_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .content .content_course {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .content .content_course .content_course_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25.362rpx;
+}
+
+.main .content .content_course .content_course_title .checkAll {
+  color: #ccc;
+}
+
+.main .content .content_course .content_course_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.main .content .content_course .content_course_content .content_course_content_item {
+  margin-top: 27.174rpx;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .content .content_course .content_course_content .content_course_content_item image {
+  width: 90.58rpx;
+  height: 90.58rpx;
+}
+
+.main .content .content_mechanism .content_mechanism_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .content .content_mechanism .content_mechanism_title view:nth-child(2) {
+  color: #005826;
+}
+
+.main .content .content_mechanism .content_mechanism_centent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 181.159rpx;
+}
+
+.main .content .content_mechanism .content_mechanism_centent image {
+  width: 108.696rpx;
+  height: 108.696rpx;
+}
+
+.main .content .OtherFunctions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.main .content .OtherFunctions image {
+  width: 72.464rpx;
+  height: 72.464rpx;
+}
+
+.main .content .OtherFunctions .OtherFunctions_item {
+  flex: 1;
+  min-width: 144.928rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 21.739rpx;
+  justify-content: center;
+  align-items: center;
+  margin: 0 9.058rpx 9.058rpx 0;
+  width: calc((100% - 27.174rpx) / 4);
+  min-width: calc((100% - 27.174rpx) / 4);
+  max-width: calc((100% - 27.174rpx) / 4);
+}
+
+.main .content .OtherFunctions .OtherFunctions_item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.main .content .OtherFunctions .OtherFunctions_item view {
+  margin-top: 9.058rpx;
+}

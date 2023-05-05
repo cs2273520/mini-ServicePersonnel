@@ -1,0 +1,47 @@
+<view class="main">
+    <view class="top">
+        <view class="top_left">
+            <image src="/image/tabbar/center_s.png" mode="" />
+        </view>
+        <view class="top_center">
+            <view>
+                xxx
+            </view>
+            <view class="intro">
+                <view class="iconfont icon-diamond"></view>
+                <view>
+                    高级护理人员
+                </view>
+            </view>
+        </view>
+        <view class="top_right">
+            <view class="iconfont icon-erweima"></view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_calendar">
+            <t-calendar use-popup="{{false}}" bind:select="handleSelect" value="{{value}}" minDate="{{minDate}}" maxDate="{{maxDate}}" format="{{format}}" bind:confirm="handleConfirm" />
+        </view>
+        <view class="content_bottom">
+            <view class="content_bottom_content">
+                <view class="content_bottom_content_item">
+                    <view class="line line_red">
+
+                    </view>
+                    <view>
+                        极速模式
+                    </view>
+                </view>
+                <view class="content_bottom_content_item content_bottom_content_item_month">
+                    <view class="line line_green">
+
+                    </view>
+                    <view>
+                        包月模式
+                    </view>
+                </view>
+            </view>
+
+        </view>
+    </view>
+</view>

@@ -1,0 +1,322 @@
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 36.232rpx;
+  padding-bottom: 86.957rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f9fd;
+  border-radius: 9.615rpx;
+  box-sizing: border-box;
+  width: 651.923rpx;
+}
+
+.main .top .name {
+  font-size: 57.692rpx;
+  padding: 0 19.231rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .top .head {
+  width: 57.692rpx;
+  height: 57.692rpx;
+  margin-right: 19.231rpx;
+}
+
+.main .top .intro {
+  margin-right: 9.615rpx;
+  width: 36.232rpx;
+  height: 36.232rpx;
+}
+
+.main .top .step {
+  color: #797575;
+}
+
+.main .chooseFun {
+  width: 651.923rpx;
+  display: flex;
+  margin-top: 38.462rpx;
+  justify-content: space-between;
+}
+
+.main .chooseFun .chooseFun_c1 {
+  width: 288.462rpx;
+  height: 307.692rpx;
+  background-color: #e9fbd6;
+  border-radius: 9.615rpx;
+}
+
+.main .chooseFun .chooseFun_c1 .chooseFun_c1_1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .chooseFun .chooseFun_c1 .chooseFun_c1_1 .ordering {
+  background-color: #81b337;
+  padding: 9.615rpx;
+  color: white;
+  font-size: 50rpx;
+  margin: 38.462rpx 0;
+}
+
+.main .chooseFun .chooseFun_c1 .chooseFun_c1_1 .chooseFun_c1_1_time {
+  color: #005826;
+  display: flex;
+  align-items: center;
+  margin-top: 28.846rpx;
+  margin-bottom: 9.615rpx;
+}
+
+.main .chooseFun .chooseFun_c1 .chooseFun_c1_1 .chooseFun_c1_1_time image {
+  width: 38.462rpx;
+  height: 38.462rpx;
+}
+
+.main .chooseFun .chooseFun_c1 .chooseFun_c1_1 .CurrentTime {
+  font-size: 42.308rpx;
+}
+
+.main .chooseFun .chooseFun_c2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .chooseFun .chooseFun_c2 .chooseFun_c2_1 {
+  width: 300rpx;
+  height: 146.154rpx;
+  background-color: #d8d8d8;
+  font-size: 34.615rpx;
+  color: #9A9A9A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9.615rpx;
+}
+
+.main .chooseFun .chooseFun_c2 .chooseFun_c2_1 .chooseFun_c2_1_startorder {
+  margin-left: 19.231rpx;
+  width: 96.154rpx;
+  height: 96.154rpx;
+  border-radius: 50%;
+  border: 1.923rpx solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .chooseFun .chooseFun_c2 .chooseFun_c2_1 .chooseFun_c2_1_startorder .iconfont {
+  width: 76.923rpx;
+  height: 76.923rpx;
+  color: white;
+  font-size: 67.308rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .chooseFun .chooseFun_c2 .chooseFun_c2_1 .jiedan {
+  background-color: #9a9a9a !important;
+}
+
+.main .chooseFun .chooseFun_c2 .chooseFun_c2_1 .stop {
+  background-color: #bd3124 !important;
+}
+
+.main .chooseFun .stoporder {
+  color: #bd3124 !important;
+  background-color: rgba(189, 49, 36, 0.33) !important;
+}
+
+.main .notice {
+  width: 651.923rpx;
+  height: 130.769rpx;
+  border-radius: 9.615rpx;
+  background-color: #F7F9FD;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 38.462rpx;
+}
+
+.main .notice .notice_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .notice .notice_content .notice_content_item {
+  width: 532.692rpx;
+  font-size: 25rpx;
+  text-decoration: underline;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.main .notice .notice_detail {
+  color: #BBBBBB;
+}
+
+.main .record {
+  margin-top: 38.462rpx;
+  width: 651.923rpx;
+  height: 355.769rpx;
+  background-color: rgba(0, 77, 33, 0.11);
+  border-radius: 9.615rpx;
+  padding: 28.846rpx;
+  box-sizing: border-box;
+}
+
+.main .record .record_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .record .record_content .record_content_title {
+  display: flex;
+}
+
+.main .record .record_content .record_content_title .icon-dingdan {
+  font-size: 76.923rpx;
+  color: #005826;
+}
+
+.main .record .record_content .record_content_title .record_content_data {
+  display: flex;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 221.154rpx;
+  font-size: 26.923rpx;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left .record_content_data_left_1 {
+  display: flex;
+  align-items: center;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left .record_content_data_left_1 .record_content_data_left_1_num {
+  font-size: 38.462rpx;
+  margin-right: 9.615rpx;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left .record_content_data_left_1 .quick {
+  color: #BD3124;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left .record_content_data_left_1 .month {
+  color: #005826;
+}
+
+.main .record .record_content .record_content_title .record_content_data .record_content_data_left:nth-child(1) {
+  border-right: 3.846rpx solid #ccc;
+}
+
+.main .record .record_content .record_content_recently {
+  width: 100%;
+  margin-top: 9.615rpx;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_title {
+  border-bottom: 1.923rpx solid #ccc;
+  font-size: 26.923rpx;
+  color: #9A9A9A;
+  height: 48.077rpx;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content .record_content_recently_all {
+  display: flex;
+  flex-direction: column;
+  width: 538.462rpx;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content .record_content_recently_all .record_content_recently_item {
+  display: flex;
+  align-items: center;
+  font-size: 26.923rpx;
+  justify-content: space-between;
+  margin-top: 19.231rpx;
+  border-bottom: 1.923rpx solid black;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content .record_content_recently_all .record_content_recently_item .point {
+  width: 28.846rpx;
+  height: 28.846rpx;
+  border-radius: 50%;
+  background-color: #005826;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content .record_content_recently_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .record .record_content .record_content_recently .record_content_recently_content .record_content_recently_right .icon-xiangyou1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9A9A9A;
+}
+
+.main .functionButton {
+  width: 651.923rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38.462rpx;
+}
+
+.main .functionButton .functionButton_item {
+  width: 250rpx;
+  height: 123.077rpx;
+  background-color: rgba(233, 157, 66, 0.24);
+  border-radius: 19.231rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26.923rpx;
+}
+
+.main .functionButton .functionButton_item .iconfont {
+  width: 86.538rpx;
+  height: 86.538rpx;
+  color: white;
+  font-size: 86.538rpx;
+  background-color: #E99D42;
+  border-radius: 50%;
+  margin-right: 9.615rpx;
+}
+
+.main .functionButton .functionButton_item .icon-cross {
+  background-color: #F73135;
+}
+
+.main .functionButton .urgent {
+  background-color: rgba(247, 49, 53, 0.24);
+}

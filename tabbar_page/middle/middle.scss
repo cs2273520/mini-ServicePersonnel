@@ -1,0 +1,209 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-bottom: 92.308rpx;
+
+    .top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 19.231rpx 19.231rpx;
+        box-sizing: border-box;
+        background-color: white;
+        margin-top: 57.692rpx;
+        .top_title {
+            font-size: 30.769rpx;
+            color: #9A9A9A;
+        }
+        
+        .top_content {
+            margin-top: 19.231rpx;
+            display: flex;
+            justify-content: space-between;
+
+            .top_content_left {
+                margin:0 38.462rpx;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .icon-loading {
+                    font-size: 153.846rpx;
+                    color: #1afa29;
+                }
+            }
+
+            .top_content_center {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                font-size: 30.769rpx;
+                justify-content: space-evenly;
+                box-sizing: border-box;
+
+                .iconfont {
+                    color: #005826;
+                    margin-right: 19.231rpx;
+                }
+
+                .top_content_center_t1 {
+                    display: flex;
+                    align-items: center;
+                    min-width: 346.154rpx;
+                    margin-bottom: 9.615rpx;
+                    .username {
+                        border-left: 3.846rpx solid #005826;
+                        padding-left: 19.231rpx;
+                        text-align: center;
+                        margin-left: 19.231rpx;
+                        line-height: 30.769rpx;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .top_content_right {
+                min-width: 153.846rpx;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                .icon-shandian {
+                    font-size: 46.154rpx;
+                    color: rgba($color: #BD3124, $alpha: 0.4);
+                }
+            }
+        }
+        .top_price{
+            font-size: 53.846rpx;
+            color: #E99D42;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 19.231rpx;
+            padding-right: 19.231rpx;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 19.231rpx;
+        box-sizing: border-box;
+        .content_item{
+            background-color: white;
+            padding:19.231rpx 19.231rpx 38.462rpx 19.231rpx;
+            display: flex;
+            flex-direction: column;
+            .content_item_title{
+                display: flex;
+                font-size: 34.615rpx;
+                
+            }
+            .t-rate{
+                margin-left: 19.231rpx;
+            }
+            .content_item_title_evaluation{
+                justify-content: center;
+                margin-bottom: 9.615rpx;
+            }
+            .lables{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                .lable_item{
+                    width: 134.615rpx;
+                    height: 61.538rpx;
+                    font-size: 26.923rpx;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #005826;
+                    border-radius: 19.231rpx;
+                    color: white;
+                    
+                }
+                .lable_item:nth-child(1){
+                    margin-right: 38.462rpx;
+                }
+            }
+            .content_item_evaluation{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .content_item_evaluation_item{
+                    display: flex;
+                    margin-bottom: 9.615rpx;
+                   
+                }
+            }
+        }
+    }
+    .bottom{
+        background-color: white;
+        margin-top: 19.231rpx;
+        padding: 0 38.462rpx;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 38.462rpx;
+        .bottom_item{
+            display: flex;
+            justify-content: center;
+            font-size: 30.769rpx;
+            .unsettled{
+                color: #BD3124;
+                margin-left: 192.308rpx;
+            }
+            .pay{
+                color: #81B337;
+            }
+            .urge{
+                width: 153.846rpx;
+                height: 57.692rpx;
+                background-color: #E99D42;
+                line-height: 57.692rpx;
+                text-align: center;
+                border-radius: 19.231rpx;
+                color: white;
+                margin-left: 38.462rpx;
+            }
+        }
+        .bottom_item:nth-child(2){
+            justify-content: space-between;
+            margin-top: 38.462rpx;
+            color: #9A9A9A;
+            font-size: 30.769rpx;
+            .question{
+                text-decoration: underline;
+            }
+            .customerService{
+                text-decoration: underline;
+                display: flex;
+                .icon-kefu{
+                    margin-right: 9.615rpx;
+              
+                }
+                
+            }
+            .appeal{
+                width: 265.385rpx;
+                height: 73.077rpx;
+                background-color: #005826;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 73.077rpx;
+                text-decoration: none;
+            }
+           
+        }
+    }
+}

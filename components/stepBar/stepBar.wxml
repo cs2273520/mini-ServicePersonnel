@@ -1,0 +1,24 @@
+<view class="stepBar">
+   <view class="stepBar_1">
+   
+       <view class="stepBar_1_content">
+       <block wx:for="{{stepDescription}}" wx:key="*this">
+        <view class="stepBar_1_content_item">
+            <view class="stepBar_1_item {{currentindex==index?'item_index':''}}"></view>
+            <view class="stepBar_1_line {{index%2==0?'stepBar_1_line_half':''}} {{index==0?'stepBar_1_line_left':''}} {{index==2?'stepBar_1_line_right':''}}">
+           
+        </view>
+        <view class="stepBar_1_content_items">
+            {{item}}
+        </view>  
+        </view>
+    
+  
+        
+       </block>
+    </view>
+      
+   </view>
+
+</view>
+<slot></slot>

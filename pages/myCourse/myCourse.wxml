@@ -1,0 +1,127 @@
+<view class="main">
+  <view class="top">
+
+<view class="headPicture">
+    <image src="/image/tabbar/center_s.png" mode="" />
+</view>
+<view class="userInfo">
+    <view class="name">
+        xxx
+    </view>
+    <view class="intro">
+        <image src="/image/tabbar/intro.svg" mode="" />
+        <view class="intro1">
+            <view>
+                基础护理人员
+            </view>
+            <view class="toUp" bindtap="toUp">
+         
+            </view>
+        </view>
+    </view>
+
+</view>
+<view class="settlement">
+   <view class="iconfont icon-erweima">
+     
+   </view>
+</view>
+</view>
+<view class="content" wx:if="{{pageName=='checkAll'}}">
+<view class="content_item">
+  <view class="content_item_title">
+    正在学习
+  </view>
+  <view class="content_item_content">
+    
+  </view>
+</view>
+<view class="content_item">
+  <view class="content_item_title">
+    完成学习
+  </view>
+  <view class="content_item_content">
+    
+  </view>
+</view>
+ 
+</view>
+
+<view class="content" wx:if="{{pageName=='unbind'}}">
+<view class="content_item content_item_unbind">
+  <view class="content_item_title">
+    绑定机构
+  </view>
+  <view class="content_item_content content_item_content_unbind">
+    <view class="iconfont icon-a-iconyanglaoyuan">
+       <view class="mechanism">
+        xxx养老院
+       </view> 
+    </view>
+    <view class="content_item_content_unbind_right"> 
+   
+    <view class="content_item_content_unbind_right_item">
+        <view class="iconfont icon-31dingwei">  
+        
+        </view>
+        <view>
+            广州市南沙区xxxxxxx
+        </view>
+    </view>
+    <view class="content_item_content_unbind_right_item">
+        <view class="iconfont icon-dianhua">  
+        </view>
+        <view>
+            12345678910
+        </view>
+    </view>
+</view>
+  </view>
+</view>
+<view class="content_item">
+  <view class="content_item_title ">
+    解绑原因
+  </view>
+  <view class="content_item_content content_item_content_unbind reason">
+    <checkbox-group bindchange="checkboxChange">
+          <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item}}">
+            <view class="weui-cell__hd">
+              <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+            </view>
+            <view class="weui-cell__bd">{{item.name}}</view>
+          </label>
+        </checkbox-group>
+        <textarea value="" placeholder="请输入其他原因"/>
+  </view>
+
+  
+
+
+</view>
+
+<view class="content_item grade">
+  <view class="content_item_title ">
+    评价
+  </view>
+  <view class="content_item_content_unbind grade">
+    <view class="demo-rate__title">实心评分</view>
+
+<t-rate value="{{value}}" bind:change="onChange" />
+  </view>
+
+  
+
+
+</view>
+
+</view>
+
+
+
+
+<view class="button" wx:if="{{pageName=='unbind'}}">
+  <view class="button_center">
+    提交并解绑
+  </view>
+</view>
+</view>

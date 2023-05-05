@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "top":"/components/page_top/page_top"
+    }
+}

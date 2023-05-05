@@ -1,0 +1,164 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    .main_title{
+        margin: 38.462rpx 0;
+        color: #0F40F5;
+        margin-left: 28.846rpx;
+        font-size: 34.615rpx;
+    }
+    .content{
+        width: 100%;
+        padding: 19.231rpx;
+        background-color: rgba($color: #004D21, $alpha: 0.11);
+        margin: 19.231rpx 0;
+        border-radius: 19.231rpx;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .content_title{
+            width: 100%;
+            display: flex;
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            .content_title_item{
+                margin-right: 30px;
+                height: 30px;
+                line-height: 30px;
+                box-sizing: border-box;
+              
+            }
+            .content_title_item_active{
+                color: #BD3124;
+                border-bottom: 2px solid #BD3124;
+            }
+
+            
+        }
+        .content_center{
+            margin: 19.231rpx 0;
+            max-height: 576.923rpx;
+            overflow: hidden;
+            position: relative;
+            .content_center_item{
+                margin-bottom: 28.846rpx;
+                width: 682.692rpx;
+                height: 163.462rpx;
+                background-color: white;
+                border-radius: 9.615rpx;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 19.231rpx 0;
+                box-sizing: border-box;
+                .content_center_item_left{
+                    display: flex;
+                    align-items: center;
+                    font-size: 26.923rpx;
+                    color: #E99D42;
+                }
+                .content_center_item_center{
+                    display: flex;
+                    align-items: center;
+                    .point{
+                        width: 38.462rpx;
+                        height: 38.462rpx;
+                        background-color: #005826;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                    }
+                   
+                }
+                .content_center_item_right{
+                    font-size: 26.923rpx;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    .content_center_item_right_item{
+                        display: flex;
+                        align-items: center;
+                        min-width: 259.615rpx;
+                        justify-content: space-between;
+                    }
+                    view:nth-of-type(1){
+                        color: #9A9A9A;
+                    }
+                }
+            }
+           
+        }
+        .content_center_line{
+            position: absolute;
+            width: 100%;
+            height: 3.846rpx;
+            background-color: #0F40F5;
+            top:43%;
+            width: 85.5%;
+        }
+        .content_bottom{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .content_bottom_content{
+                display: flex;
+                width: 451.923rpx;
+                justify-content: space-between;
+                align-items: center;
+                .button{
+                    width: 100rpx;
+                    height: 61.538rpx;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 23.077rpx;
+                    border-radius: 19.231rpx;
+                }
+                .pageNum{
+                    font-size: 23.077rpx;
+                    text{
+                        color: #BD3124;  
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .bottom_contnt{
+            width: 231px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            border-radius: 38px;
+            color: white;
+            background-color: #005826;
+        }
+    }
+    .customService{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 20px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #9A9A9A;
+        .icon-kefu{
+            margin-right: 10px;
+            color: #004D21;
+        }
+    }
+}

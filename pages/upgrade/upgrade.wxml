@@ -1,0 +1,207 @@
+<view class="main">
+    <view class="top">
+
+        <view class="headPicture">
+            <image src="/image/tabbar/center_s.png" mode="" />
+        </view>
+        <view class="userInfo">
+            <view class="name">
+                xxx
+            </view>
+            <view class="intro">
+                <image src="/image/tabbar/intro.svg" mode="" />
+                <view class="intro1">
+                    <view>
+                        基础护理人员
+                    </view>
+                    <view class="toUp" bindtap="toUp">
+                        去升级
+                    </view>
+                </view>
+            </view>
+
+        </view>
+        <view class="settlement">
+
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_top">
+            <view class="content_top_center">
+                <block wx:for="{{Experience}}" wx:key="*this">
+                    <view class="content_top_center_item {{index==chooseExperience?'haveExperience':''}}" bindtap="chooseExperience" data-index="{{index}}">
+                        {{item}}
+                    </view>
+                </block>
+
+            </view>
+
+        </view>
+        <view class="step">
+            <stepBar index="{{index}}" stepDescription="{{stepDescription}}" wx:if="{{chooseExperience==0}}"></stepBar>
+        </view>
+        <view class="content_form" wx:if="{{chooseExperience==0 &&index==0}}">
+            <form bindsubmit="">
+                <view class="form_img">
+                    <view class="form_title">
+                        <view>图片资料</view>
+                        <view class="img_num">0/2</view>
+                    </view>
+                    <view class="form_img_imgs">
+                        <view class="form_img_imgs_item form_img_imgs_chooseImg">
+                        </view>
+                        <view class="form_img_imgs_item form_img_imgs_chooseImg">
+                        </view>
+                        <view class="form_img_imgs_item form_img_imgs_chooseImg">
+                        </view>
+                    </view>
+                    <view class="certificateDescription">
+                        <view class="certificateDescription_item">
+                            <view class="certificateDescription_item_describe">
+                                证书1
+                            </view>
+                            <input type="text" placeholder="证书名称或简单描述" />
+                            <view class="iconfont icon-jiahao">
+
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="upload">
+                    <view class="upload_submit" bindtap="next">
+                        确认上传
+                    </view>
+
+                </view>
+            </form>
+        </view>
+
+        <view class="content_form UnderReview" wx:if="{{chooseExperience==0 && index==1}}">
+            <view class="underReview">
+                <view class="iconfont icon-shizhong">
+
+                </view>
+                <view>
+                    正在审核
+                </view>
+                <view>
+                    已提交资料,等待平台审核
+                </view>
+                <view class="customerService">
+                    <view class="iconfont icon-kefu"></view>
+                    <view>
+                        在线客服
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="content_form UnderReview" wx:if="{{chooseExperience==0 && index==2}}">
+            <view class="underReview">
+                <view class="iconfont icon-duigou">
+
+                </view>
+                <view class="successUpgrade">
+                    升级成功
+                </view>
+                <view class="Congratulations">
+                    恭喜您成为
+                </view>
+                <view class="advanced">
+                    高级护理人员
+                </view>
+                <view class="customerService">
+                    <view class="iconfont icon-kefu"></view>
+                    <view>
+                        在线客服
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="gotoReceive"wx:if="{{chooseExperience==2}}">
+            <view class="gotoReceive_button">
+                去接单
+            </view>
+        </view>
+
+        <view class="content_form" wx:if="{{chooseExperience==1}}">
+            <form bindsubmit="">
+                <view class="form_img">
+                    <view class="form_title">
+                        <view>为您推荐课程</view>
+                    </view>
+                    <view class="form_img_imgs ">
+
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+                        <view class="noExperience">
+                        </view>
+
+                    </view>
+                    <view class="certificateDescription" wx:if="{{chooseExperience==0}}">
+                        <view class="certificateDescription_item">
+                            <view class="certificateDescription_item_describe">
+                                证书1
+                            </view>
+                            <input type="text" placeholder="证书名称或简单描述" />
+                            <view class="iconfont icon-jiahao">
+
+                            </view>
+                        </view>
+                    </view>
+                    <view class="certificateDescription noline" wx:if="{{chooseExperience==1}}">
+                        <view class="certificateDescription_item">
+                            <view class="certificateDescription_item_describe">
+                                已选择1门课程
+                            </view>
+                            <view class="topay">
+                                去支付
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+            </form>
+        </view>
+
+       
+
+
+
+    </view>
+    <view class="bottom_button" wx:if="{{chooseExperience==1}}">
+            <view class="bottom_button_title">
+                <checkbox-group>
+                    <label>
+                        <checkbox></checkbox>
+                    </label>
+                </checkbox-group>
+                <view>
+                    同意护理机构课程协议
+                </view>
+            </view>
+            <view class="buttons">
+                <view>
+                    返回
+                </view>
+                <view>
+                    去学习
+                </view>
+            </view>
+        </view>
+
+</view>

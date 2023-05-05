@@ -1,0 +1,52 @@
+<view class="main">
+    <view class="top">
+        <view class="iconfont icon-yonghu">
+            
+        </view>
+        <view>
+            护理人员登录
+        </view>
+    </view>
+    <view class="form">
+        <view class="form_content">
+            <view class="form_item">
+            <input type="text" placeholder="手机号码"/>
+        </view>
+            <view class="form_item">
+            <input type="text" placeholder="密码"/>
+            <view class="iconfont icon-jiesuo">
+                
+            </view>
+            <view class="forgetPassword">
+               忘记密码
+            </view>
+        </view>
+        <view class="bottom_info">
+        <view class="iconfont icon-duigou">
+            
+        </view>   
+        <view>
+            同意智慧养老平台用户隐私协议
+        </view> 
+        </view>
+   
+        </view> 
+        
+    </view>
+    <view class="bottom">
+        <view class=" loginAndRegister">
+            <view class="bottom_item login">
+                登录
+            </view>
+            <view class="bottom_item toSregister">
+                去注册
+            </view>
+        </view>
+        <view class="wechatLogo">
+            <view class="iconfont icon-weixin"></view>
+            <view>
+                微信一键登录
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "top":"/components/page_top/page_top",
+        "t-rate": "tdesign-miniprogram/rate/rate"
+    }
+}

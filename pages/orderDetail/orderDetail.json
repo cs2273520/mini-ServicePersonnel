@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "map":"/components/map/map",
+        "t-input": "tdesign-miniprogram/input/input",
+        "t-dialog": "tdesign-miniprogram/dialog/dialog",
+        "t-rate": "tdesign-miniprogram/rate/rate"
+    }
+}

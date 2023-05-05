@@ -1,0 +1,80 @@
+.stepBar {
+  width: 100%;
+  height: 125rpx;
+}
+
+.stepBar .stepBar_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_content_items {
+  font-size: 26.923rpx;
+  margin-top: 19.231rpx;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_item {
+  width: 38.462rpx;
+  height: 38.462rpx;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  font-size: 26.923rpx;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_line {
+  width: 100%;
+  height: 3.846rpx;
+  background-color: #ccc;
+  position: absolute;
+  top: calc(25% - 5.769rpx);
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_line_half {
+  width: 50%;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_line_left {
+  right: 0;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .stepBar_1_line_right {
+  left: 0;
+}
+
+.stepBar .stepBar_1 .stepBar_1_content .stepBar_1_content_item .item_index {
+  background-color: #005826;
+}
+
+.stepBar .stepBar_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26.923rpx;
+}
+
+.stepBar .stepBar_2 .stepBar_2_item {
+  flex: 1;
+  border: 1.923rpx solid #ccc;
+}

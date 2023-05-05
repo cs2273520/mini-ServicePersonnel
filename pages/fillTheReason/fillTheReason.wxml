@@ -1,0 +1,73 @@
+<view class="main">
+    <setBar index="{{index}}" stepDescription="{{stepDescription}}" wx:if="{{page=='appeal'}}"></setBar>
+
+    <form bindsubmit="" wx:if="{{index==0}}">
+        <view class="top">
+            订单编号:000000000000000
+        </view>
+        <view class="content">
+
+            <view class="content_left" wx:if="{{page=='rejectReason'}}" >
+                拒单原因
+            </view>
+            <view class="content_left" wx:if="{{page=='appeal'}}" >
+                申诉内容
+            </view>
+            <view class="content_right">
+                <checkbox-group bindchange="checkboxChange">
+                    <label class="content_right_item" wx:for="{{reasons}}" wx:key="*this">
+                        <view class="weui-cell__hd">
+                            <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+                        </view>
+                        <view class="weui-cell__bd">{{item.name}}</view>
+                    </label>
+                </checkbox-group>
+                <textarea placeholder="请输入其他描述~"/>
+            </view>
+         
+        </view>
+        <view class="uploadImg">
+            <view class="uploadImg_title">
+                上传图片
+            </view>
+            <view class="addImg">
+                +
+            </view>
+        </view>
+        <view class="customerService">
+                    <view class="iconfont icon-kefu"></view>
+                    <view>
+                        在线客服
+                    </view>
+                </view>
+        <view class="buttons">
+            <view>
+                保存
+            </view>
+            <view bindtap="toSubmit">
+                提交
+            </view>
+        </view>
+    </form>
+    <view class="content_form" wx:if="{{index==1}}">
+            <view class="underReview">
+                <view class="iconfont icon-shizhong">
+
+                </view>
+                <view>
+                    正在审核
+                </view>
+                <view>
+                    已提交资料,等待平台审核
+                </view>
+                <view class="customerService">
+                    <view class="iconfont icon-kefu"></view>
+                    <view>
+                        在线客服
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+</view>
